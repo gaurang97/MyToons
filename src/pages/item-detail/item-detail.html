@@ -1,0 +1,360 @@
+<ion-header>
+
+  <ion-navbar color="hardpink">
+    <ion-title>{{ item.name }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="bg" padding>
+  <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
+  </div>
+
+  
+    <h2>{{item.name}}</h2>
+    <p>{{item.about}}</p>
+    
+  
+    
+  
+      
+   <ion-grid>
+     <ion-row>
+       <ion-col>
+      <button class="button-color"  (click)="openItem(item.video1)">
+        
+           <img width="100%" [src]="item.TP1" />
+        </button>
+        <p><b>{{item.title1}}</b>
+       
+       </p>
+       
+      
+        
+       </ion-col>
+         <ion-col>
+ 
+      <button class="button-color"  (click)="openItem(item.video2)">
+        
+           <img width="100%" [src]="item.TP2" />
+        </button>
+        <p><b>{{item.title2}}</b></p>
+      
+         </ion-col>
+     </ion-row>
+  
+   <ion-row>
+     <ion-col>
+      <button class="button-color" (click)="openItem(item.video3)">
+      
+          <img width="100%" [src]="item.TP3" />
+          </button>
+        <p><b>{{item.title3}}
+
+
+        </b></p>
+    
+
+ 
+     </ion-col>
+      <ion-col>
+      <button class="button-color" (click)="openItem(item.video4)">
+        
+         <img width="100%" [src]="item.TP4" />
+          </button>
+        <p><b>{{item.title4}}</b></p>
+   
+      </ion-col>
+   </ion-row>
+    <ion-row>
+     <ion-col>
+     
+   
+      <button class="button-color" (click)="openItem(item.video5)">
+        
+           <img width="100%" [src]="item.TP5" />
+        </button>
+        <p><b>{{item.title5}}</b></p>
+     </ion-col>
+
+  <ion-col>
+      <button  class="button-color" (click)="openItem(item.video6)">
+  
+          <img width="100%" [src]="item.TP6" />
+          </button>
+        <p><b>{{item.title6}}</b></p>
+      
+  </ion-col>
+    </ion-row>
+<ion-row>
+  <ion-col>
+    
+      <button  class="button-color" (click)="openItem(item.video7)">
+      
+           <img width="100%" [src]="item.TP7" />
+        </button>
+        <p><b>{{item.title7}}</b></p>
+  </ion-col>
+      <ion-col>
+   
+   
+      <button  class="button-color" (click)="openItem(item.video8)">
+        
+         <img width="100%" [src]="item.TP8" />
+        </button>
+        <p><b>{{item.title8}}</b></p>
+      </ion-col>
+</ion-row>
+    <ion-row>
+      <ion-col>
+   
+    
+      <button  class="button-color" (click)="openItem(item.video9)">
+       
+     <img width="100%" [src]="item.TP9" />
+     </button>
+        <p><b>{{item.title9}}</b></p>
+      </ion-col>
+      <ion-col>
+
+ 
+  
+      <button class="button-color"  (click)="openItem(item.video10)">
+       
+       <img width="100%" [src]="item.TP10" />
+      </button>
+        <p><b>{{item.title10}}</b></p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        
+   
+  
+      <button class="button-color"  (click)="openItem(item.video11)">
+      
+         <img width="100%" [src]="item.TP11" />
+    </button>
+        <p><b>{{item.title11}}</b></p>
+      </ion-col>
+    <ion-col>
+      <button class="button-color" (click)="openItem(item.video12)">
+     
+       <img width="100%" [src]="item.TP12" />
+      </button>
+        <p><b>{{item.title12}}</b></p>
+    </ion-col>
+    </ion-row>
+  <ion-row>
+    <ion-col>
+      <button class="button-color"  (click)="openItem(item.video13)">
+       
+   <img width="100%" [src]="item.TP13" />
+      </button>
+        <p><b>{{item.title13}}</b></p>
+    </ion-col>
+      <ion-col>
+  
+      <button class="button-color"  (click)="openItem(item.video14)">
+      
+          <img width="100%" [src]="item.TP14" />
+     </button>
+        <p><b>{{item.title14}}</b></p>
+      </ion-col>
+  </ion-row>
+    <ion-row>
+      <ion-col>
+    
+      <button class="button-color"  (click)="openItem(item.video15)">
+     
+       <img width="100%" [src]="item.TP15" />
+     </button>
+        <p><b>{{item.title15}}</b></p>
+      </ion-col>
+      <ion-col>
+
+  
+      <button class="button-color"  (click)="openItem(item.video16)">
+    
+        <img width="100%" [src]="item.TP16" />
+     </button>
+        <p><b>{{item.title16}}</b></p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+    
+      <button class="button-color"  (click)="openItem(item.video17)">
+       
+        <img width="100%" [src]="item.TP17" />
+    </button>
+        <p><b>{{item.title17}}</b></p>
+      </ion-col>
+      <ion-col>
+
+    
+      <button class="button-color"  (click)="openItem(item.video18)">
+      
+         <img width="100%" [src]="item.TP18" />
+       </button>
+        <p><b>{{item.title18}}</b></p>
+      </ion-col>
+    </ion-row>
+   <ion-row>
+     <ion-col>
+
+      <button class="button-color" (click)="openItem(item.video19)">
+        
+       <img width="100%" [src]="item.TP19" />
+    </button>
+        <p><b>{{item.title19}}</b></p>
+     </ion-col>
+      <ion-col>
+ 
+      <button class="button-color"  (click)="openItem(item.video20)">
+        
+         <img width="100%" [src]="item.TP20" />
+        </button>
+        <p><b>{{item.title20}}</b></p>
+      </ion-col>
+   </ion-row>
+    <ion-row>
+      <ion-col>
+
+  
+      <button class="button-color"  (click)="openItem(item.video21)">
+       
+          <img width="100%" [src]="item.TP21" />
+       </button>
+        <p><b>{{item.title21}}</b></p>
+      </ion-col>
+      <ion-col>
+    
+      <button class="button-color"  (click)="openItem(item.video22)">
+       
+          <img width="100%" [src]="item.TP22" /></button>
+        <p><b>{{item.title22}}</b></p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+   
+      <button class="button-color"  (click)="openItem(item.video23)">
+       
+           <img width="100%" [src]="item.TP23" />
+        </button>
+        <p><b>{{item.title23}}</b></p>
+      </ion-col>
+      <ion-col>
+    
+      <button class="button-color"  (click)="openItem(item.vide24)">
+       <img width="100%" [src]="item.TP24" />
+        </button>
+        <p><b>{{item.title24}}</b></p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+
+      <button class="button-color" (click)="openItem(item.video25)">
+      
+          <img width="100%" [src]="item.TP25" />
+         </button>
+        <p><b>{{item.title25}}</b></p>
+      </ion-col>
+      <ion-col>
+   
+      <button class="button-color" (click)="openItem(item.video26)">
+      
+          <img width="100%" [src]="item.TP26" />
+      </button>
+        <p><b>{{item.title26}}</b></p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+  
+      <button class="button-color"  (click)="openItem(item.video27)">
+      
+          <img width="100%" [src]="item.TP27" />
+        </button>
+        <p><b>{{item.title27}}</b></p>
+      </ion-col>
+      <ion-col>
+ 
+      <button class="button-color"  (click)="openItem(item.video28)">
+  
+          <img width="100%" [src]="item.TP28" />
+  </button>
+        <p><b>{{item.title28}}</b></p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+   
+      <button class="button-color"  (click)="openItem(item.video29)">
+    <img width="100%" [src]="item.TP29" />
+          </button>
+        <p><b>{{item.title29}}</b></p>
+      </ion-col>
+<ion-col>
+      <button class="button-color"  (click)="openItem(item.video30)">
+    
+           <img width="100%" [src]="item.TP30" />
+   </button>
+        <p><b>{{item.title30}}</b></p>
+</ion-col>
+    </ion-row>
+<ion-row>
+  <ion-col>
+   
+      <button class="button-color" (click)="openItem(item.video31)">
+        
+          <img width="100%" [src]="item.TP31" />
+        </button>
+        <p><b>{{item.title31}}</b></p>
+  </ion-col>
+      <ion-col>
+ 
+      <button class="button-color"  (click)="openItem(item.video32)">
+        
+           <img width="100%" [src]="item.TP32" />
+     </button>
+        <p><b>{{item.title32}}</b></p>
+      </ion-col>
+</ion-row>
+    <ion-row>
+      <ion-col>
+
+  
+      <button class="button-color"  (click)="openItem(item.video33)">
+       
+           <img width="100%" [src]="item.TP33" />
+     </button>
+        <p><b>{{item.title33}}</b></p>
+      </ion-col>
+      <ion-col>
+   
+      <button class="button-color"  (click)="openItem(item.video34)">
+       
+         <img width="100%" [src]="item.TP34" />
+         </button>
+        <p><b>{{item.title34}}</b></p>
+      </ion-col>
+    </ion-row>
+
+  <ion-row>
+      <ion-col>
+      <button class="button-color"  (click)="openItem(item.video35)">
+       
+         <img width="100%" [src]="item.TP35" />
+       </button>
+        <p><b>{{item.title35}}</b></p>
+      </ion-col></ion-row>
+   </ion-grid>
+  
+ 
+   
+
+</ion-content>
