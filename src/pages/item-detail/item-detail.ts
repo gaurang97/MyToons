@@ -32,8 +32,8 @@ export class ItemDetailPage {
    
         
             this.admobId = {
-                banner: 'ca-app-pub-3588704700538707/9079918299',
-                interstitial: 'ca-app-pub-3588704700538707/5706939058'
+                banner: 'ca-app-pub-xxxxxxxxxxxxxxxxxxxxxxxxxxx',
+                interstitial: 'ca-app-pub-xxxxxxxxxxxxxxxxxxxxxxxxxxx'
             };
        
         
